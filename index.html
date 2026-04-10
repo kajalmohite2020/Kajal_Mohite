@@ -7,9 +7,133 @@
 
 <title>Kajal Tanaji Mohite | Data Analyst</title>
 
-<link rel="stylesheet" href="style.css">
-
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+body{
+font-family:'Poppins',sans-serif;
+margin:0;
+background:linear-gradient(135deg,#eef2ff,#f8fafc);
+color:#333;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:#1e3a8a;
+color:white;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+font-weight:500;
+}
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:80px;
+}
+
+.hero-img img{
+width:220px;
+border-radius:50%;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.btn{
+background:#2563eb;
+color:white;
+padding:10px 20px;
+border-radius:6px;
+text-decoration:none;
+margin-right:10px;
+}
+
+.btn2{
+border:2px solid #2563eb;
+padding:10px 20px;
+border-radius:6px;
+text-decoration:none;
+color:#2563eb;
+}
+
+section{
+padding:70px;
+}
+
+h2{
+text-align:center;
+margin-bottom:40px;
+}
+
+.skills-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:20px;
+}
+
+.skill{
+background:white;
+padding:15px;
+text-align:center;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.skill:hover{
+transform:scale(1.05);
+}
+
+.project-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.project-card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.project-card:hover{
+transform:translateY(-8px);
+}
+
+.edu-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.edu-card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#1e3a8a;
+color:white;
+margin-top:40px;
+}
+
+</style>
 
 </head>
 
@@ -31,14 +155,14 @@
 
 <section class="hero">
 
-<div class="hero-text">
+<div>
 
 <h1>Kajal Tanaji Mohite</h1>
 
 <h3>Aspiring Data Analyst</h3>
 
 <p>
-A passionate and detail-oriented Data Analyst fresher with strong knowledge in Python, SQL, Excel, Power BI and Machine Learning.
+A passionate Data Analyst fresher skilled in Python, SQL, Excel, Power BI and Machine Learning.
 </p>
 
 <a href="#" class="btn">View Resume</a>
@@ -56,12 +180,8 @@ A passionate and detail-oriented Data Analyst fresher with strong knowledge in P
 
 <h2>About Me</h2>
 
-<p>
-I am a BCA graduate with strong interest in data analysis, visualization and machine learning.
-</p>
-
-<p>
-I enjoy transforming raw data into meaningful insights and solving real-world problems using data.
+<p style="text-align:center;">
+I am a BCA graduate interested in Data Analytics and Data Visualization.
 </p>
 
 </section>
@@ -83,14 +203,12 @@ I enjoy transforming raw data into meaningful insights and solving real-world pr
 <h3>HSC</h3>
 <p>R.B. Shirke Junior College</p>
 <p>Ratnagiri</p>
-<p>2020</p>
 </div>
 
 <div class="edu-card">
 <h3>SSC</h3>
 <p>Shree Lakshmi Keshav Vidya Mandir</p>
 <p>Ratnagiri</p>
-<p>2018</p>
 </div>
 
 </div>
@@ -103,14 +221,12 @@ I enjoy transforming raw data into meaningful insights and solving real-world pr
 
 <div class="skills-grid">
 
-<div class="skill">Python</div>
-<div class="skill">SQL</div>
-<div class="skill">Machine Learning</div>
-<div class="skill">Excel</div>
-<div class="skill">Power BI</div>
-<div class="skill">Data Cleaning</div>
-<div class="skill">Data Visualization</div>
-<div class="skill">Analytical Thinking</div>
+<div class="skill"><i class="fa-brands fa-python"></i> Python</div>
+<div class="skill"><i class="fa-solid fa-database"></i> SQL</div>
+<div class="skill"><i class="fa-solid fa-chart-column"></i> Power BI</div>
+<div class="skill"><i class="fa-solid fa-table"></i> Excel</div>
+<div class="skill"><i class="fa-solid fa-brain"></i> Machine Learning</div>
+<div class="skill"><i class="fa-solid fa-chart-line"></i> Data Analysis</div>
 
 </div>
 
@@ -123,13 +239,13 @@ I enjoy transforming raw data into meaningful insights and solving real-world pr
 <div class="project-grid">
 
 <div class="project-card">
-<h3>Project Coming Soon</h3>
-<p>I am currently working on real-world data analysis projects.</p>
+<h3>Warehouse Inventory Analysis</h3>
+<p>Analyzed warehouse dataset using clustering techniques.</p>
 </div>
 
 <div class="project-card">
-<h3>Project Coming Soon</h3>
-<p>Projects will be updated here soon.</p>
+<h3>Sales Dashboard</h3>
+<p>Built interactive dashboard using Power BI.</p>
 </div>
 
 </div>
@@ -138,25 +254,17 @@ I enjoy transforming raw data into meaningful insights and solving real-world pr
 
 <section id="contact">
 
-<h2>Contact Me</h2>
+<h2>Contact</h2>
 
-<form>
-
-<input type="text" placeholder="Your Name">
-
-<input type="email" placeholder="Email">
-
-<textarea placeholder="Message"></textarea>
-
-<button type="submit">Send Message</button>
-
-</form>
+<p style="text-align:center;">
+Email: kajal@email.com
+</p>
 
 </section>
 
 <footer>
 
-<p>© 2025 Kajal Tanaji Mohite</p>
+<p>© 2026 Kajal Tanaji Mohite</p>
 
 </footer>
 
